@@ -1,0 +1,75 @@
+:root {
+    /* --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --varyDarkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(229, 6%, 66%);
+    --veryLightGray: hsl(0, 0%, 98%);
+    --weight1: 200;
+    --weight2: 400;
+    --weight3: 600; */
+    --veryLightGray: hsl(0, 0%, 98%);
+
+    --weight1: 200;
+    --weight2: 400;
+    --weight3: 600;
+}
+
+
+h1{
+    color: var(--varyDarkBlue);
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.header {
+    text-align: center;
+    line-height: 0.8;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.header p {
+    margin: 0 auto;
+    line-height: 2;
+    color: var(--grayishBlue);
+}
+
+
+.box p {
+    color: rgb(14, 13, 13);
+}
+
+.box {
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+    padding: 30px;
+    margin: 40px;  
+    background-color: aliceblue;
+}
+
+img {
+    float: right;
+}
+
+
+.blue {
+    border-top: 3px solid var(--blue);
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .title2{
+    color: aliceblue;
+  }
